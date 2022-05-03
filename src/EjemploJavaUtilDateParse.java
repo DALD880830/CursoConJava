@@ -42,7 +42,7 @@ public class EjemploJavaUtilDateParse {
             System.err.println("La fecha tiene un formato incorrecto: " + e.getMessage()); //Se menciona que el formato está mal y con e.getMessage() obtenemos el String que el usuario ingreso
             System.err.println("El formato debe ser 'yyyy-MM-dd'"); // Reiteramos el formato que se debía ingresar
             System.exit(1); //En vez de volver a iniciar el main, salimos de la aplicacion
-            //main(args);
+            //main(args); //Se puede volver a ejecutar el método main, se debe descomentar este y comentar el System.exit
         }
     }
 }
